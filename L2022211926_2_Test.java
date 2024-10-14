@@ -1,7 +1,10 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-
+/**
+ * 这位同学的测试用例符合题目要求，非常规范
+ * 并且测试结果均通过
+ */
 // 采用等价划分法设计测试用例
 public class L2022211926_2_Test {
 

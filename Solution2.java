@@ -16,6 +16,13 @@
  * 1 <= s.length <= 104
  * s 由小写英文字母组成
  */
+
+
+/**
+ * 这位同学的代码实现了一个去除重复字母的功能，并且保证了结果的字典序最小。
+ * 代码中使用了布尔数组 vis 和整型数组 num 来记录每个字母的出现情况和数量，
+ * 通过遍历字符串 s 来实现去除重复字母的操作。整体思路清晰，代码逻辑也比较完整。
+ */
 class Solution2 {
     public String removeDuplicateLetters(String s) {
         boolean[] vis = new boolean[26];
